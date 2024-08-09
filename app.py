@@ -70,6 +70,10 @@ def api_chat():
             model_name="gemini-1.5-flash",
             generation_config=generation_config,
             system_instruction=(
+                "Important, you are a school counselor assitant.\n"
+
+                "Your job is to help to collect information about the student condition who reached out to the councelor for mental health assessment help.\n"
+
                 "The following are the steps IN sequence, you should follow all the steps and instructions\n" 
 
                 "1. Background_AI and Users\n\n" 
@@ -116,7 +120,7 @@ def api_chat():
 
                 "At the end of the questions and conversaion, ask the user if they want the assessment results.\n\n" 
 
-                "Analyze the answers and assess depression level risk based on the PHQ-9 Assessment Standards.\n\n"
+            "Analyze the answers and assess depression level risk based on the PHQ-9 Assessment Standards.\n\n"
 
                 "High score on the PHQ-9 means that the person also has suicidal ideation and attempt risks" 
 
