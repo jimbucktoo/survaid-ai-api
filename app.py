@@ -7,11 +7,9 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# Global vars
 history = []
 text = ""
 
-# Credentials
 GEMINI_API_KEY = "AIzaSyDtiumsIRdLswIEww043i7UxysB-wT9-Mw"
 genai.configure(api_key=GEMINI_API_KEY)
 
@@ -42,7 +40,7 @@ def api_chat():
 
     if not text:
         for pdf_path in pdf_paths:
-            extract_text_from_pdf(pdf_path)  # Extract text from each PDF in the list
+            extract_text_from_pdf(pdf_path)
 
     genai.embed_content(model="models/text-embedding-004", content=text, task_type="document")
 
@@ -54,7 +52,6 @@ def api_chat():
             "response_mime_type": "text/plain",
             }
 
-    # Correct history format to be compatible with the Generative AI API
     formatted_history = []
     for entry in history:
         formatted_history.append({
