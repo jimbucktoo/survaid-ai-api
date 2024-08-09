@@ -8,6 +8,7 @@ Survaid is a web and mobile application that facilitates real-time mobile sensor
 - [Survaid Web App](https://github.com/jimbucktoo/survaid-web/) - Survaid Web App Github Repository
 - [Survaid Mobile App](https://github.com/jimbucktoo/survaid-ios/) - Survaid Mobile App Github Repository
 - [Survaid AI](https://github.com/jimbucktoo/survaid-ai/) - Survaid AI Github Repository
+- [Survaid AI API](https://github.com/jimbucktoo/survaid-ai-api/) - Survaid AI API Github Repository
 
 ## Technologies
 
