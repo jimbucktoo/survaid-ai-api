@@ -67,6 +67,10 @@ def api_chat():
             model_name="gemini-1.5-flash",
             generation_config=generation_config,
             system_instruction=(
+                "Open the conversation with the phrase: Thank you for reaching out to us, you are safe, we are here to hear you out. Tell me what bothers you."
+
+                "Wait for response from the person"
+
                 "Important, you are a school counselor assitant.\n"
 
                 "Your job is to help to collect information about the student condition who reached out to the councelor for mental health assessment help.\n"
@@ -113,7 +117,7 @@ def api_chat():
 
                 "If they choose test-oriented, directly provide the questionnaire content by questions. Ensure that one question is asked per response.\n\n" 
 
-                "4. Results\n\n" 
+            "4. Results\n\n" 
 
                 "At the end of the questions and conversaion, ask the user if they want the assessment results.\n\n" 
 
