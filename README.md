@@ -1,12 +1,9 @@
 # survaid-ai-api
 
-Survaid is a survey platform that facilitates real-time mobile sensor data capturing and analysis from survey participants, changing the way researchers gather data driven insights. By using the power of modern smartphone sensors, Survaid provides a complete toolkit for building, deploying, and analyzing customized mobile surveys that create detailed reports.
+survaid-ai-api is an AI-powered chatbot platform designed to revolutionize early mental health diagnosis screening. Leveraging the OpenAI ChatGPT API, Survaid engages users in natural, empathetic conversations to assess mental health indicators quickly and effectively. By combining advanced conversational AI with mobile accessibility, it provides researchers and healthcare professionals with a powerful tool to conduct preliminary screenings, gather nuanced insights, and generate detailed reports in real time.
 
 ## Links
 
-- [Survaid Website](https://survaidapp.com/) - Survaid Website
-- [Survaid Web App](https://github.com/jimbucktoo/survaid-web/) - Survaid Web App Github Repository
-- [Survaid Mobile App](https://github.com/jimbucktoo/survaid-ios/) - Survaid Mobile App Github Repository
 - [Survaid AI](https://github.com/jimbucktoo/survaid-ai/) - Survaid AI Github Repository
 - [Survaid AI API](https://github.com/jimbucktoo/survaid-ai-api/) - Survaid AI API Github Repository
 
